@@ -1,0 +1,1 @@
+export const EXPIRATION_WINDOW_SEONDS = 15 * 60

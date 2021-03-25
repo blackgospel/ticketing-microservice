@@ -1,0 +1,20 @@
+{
+  "name": "@omnixenon/event-bridge",
+  "version": "0.0.1",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "serverless": "AWS_SHARED_CREDENTIALS_FILE=../../infrastructure/.aws_credentials serverless",
+    "watch": "yarn serverless offline"
+  },
+  "dependencies": {
+    "@omnixenon/orders": "0.0.1",
+    "@omnixenon/tickets": "0.0.1"
+  },
+  "devDependencies": {
+    "find-yarn-workspace-root": "^2.0.0",
+    "serverless": "^2.29.0",
+    "serverless-offline": "^6.8.0",
+    "serverless-offline-aws-eventbridge": "^1.5.1"
+  }
+}

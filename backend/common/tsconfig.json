@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./build",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "#root/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules/**/*", ".webpack/**/*", "**/*.js"],
+  "include": ["./src/**/*.ts"]
+}
