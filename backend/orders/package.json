@@ -19,6 +19,7 @@
     "lodash.isempty": "^4.4.0",
     "lodash.pick": "^4.4.0",
     "serverless-http": "^2.7.0",
+    "stripe": "^8.142.0",
     "type-dynamo": "^0.1.6"
   },
   "devDependencies": {

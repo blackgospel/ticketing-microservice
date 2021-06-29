@@ -1,5 +1,4 @@
 import { RequireAuthMiddleware } from '@omnixenon/common'
-import OrderRepository from '@root/model/orders'
 import { getAllOrdersForUserId } from '@root/queries/orders'
 import express, { Request, Response } from 'express'
 
